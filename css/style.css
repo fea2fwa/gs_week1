@@ -45,6 +45,13 @@
 
 .item-right{
     grid-column: rightarea;
+    font-size: 30px;
+    margin: 0 0 0 150px;
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    justify-content: center;
+    height: 765px;
 }
 
 .choice{
