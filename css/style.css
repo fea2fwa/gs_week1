@@ -1,0 +1,65 @@
+@charset "utf-8"
+.wrapper{
+    max-width: 1350px;
+    margin: auto;
+}
+
+/* Headerセクション */
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 121px;
+    align-items: center;
+    max-width: 1350px;
+}
+
+.logo-image{
+    margin: 0 0 0 30px;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin: 50px 50px 0 0;
+}
+
+/* メインセクション */
+
+.contents-container{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-areas: 
+    "leftarea centerarea rightarea"
+    ;
+}
+
+.item-left{
+    grid-column: leftarea;
+}
+
+.item-center{
+    grid-column: centerarea;
+}
+
+.item-right{
+    grid-column: rightarea;
+}
+
+.choice{
+    margin: 0 0 0 150px;
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 765px;
+}
+
+.oppornent{
+    margin: 0 0 0 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 255px;
+    height: 765px;
+}
