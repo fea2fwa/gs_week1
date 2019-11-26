@@ -88,3 +88,96 @@ $("#my_value_choki").on("click",function(){
     $("#op_value").html(view);
     $("#result").html(resulttext);
 });
+
+
+
+$("#my_value_par_boss").on("click",function(){
+
+    const r = Math.ceil(Math.random()*10);
+
+    if(r==7){
+        view = '<img src="img/gu.png">';
+    }if(r<=3){
+        view = '<img src="img/par.png">';
+    }if((r>3 && r<=6) || r>=8){
+        view = '<img src="img/choki.png">';
+    }
+
+
+    if(r==7){
+        resultpic = '<img src="img/lose.png">'
+    }
+    if(r<=3){
+        resultpic = '<img src="img/draw.png">'
+    }
+    if(r>3 && r<=6){
+        resultpic = '<img src="img/win1.png">'
+    }
+    if(r>=8){
+        resultpic = '<img src="img/win2.png">'
+    }
+
+    $("#op_value").html(view);
+    $("#result").html(resultpic);
+});
+
+$("#my_value_gu_boss").on("click",function(){
+
+    const r = Math.ceil(Math.random()*10);
+
+    if(r==7){
+        view = '<img src="img/choki.png">';
+    }if(r<=3){
+        view = '<img src="img/gu.png">';
+    }if((r>3 && r<=6) || r>=8){
+        view = '<img src="img/par.png">';
+    }
+
+
+    if(r==7){
+        resultpic = '<img src="img/lose.png">'
+    }
+    if(r<=3){
+        resultpic = '<img src="img/draw.png">'
+    }
+    if(r>3 && r<=6){
+        resultpic = '<img src="img/win1.png">'
+    }
+    if(r>=8){
+        resultpic = '<img src="img/win2.png">'
+    }
+
+    $("#op_value").html(view);
+    $("#result").html(resultpic);
+});
+
+
+$("#my_value_choki_boss").on("click",function(){
+
+    const r = Math.ceil(Math.random()*10);
+
+    if(r==7){
+        view = '<img src="img/par.png">';
+    }if(r<=3){
+        view = '<img src="img/choki.png">';
+    }if((r>3 && r<=6) || r>=8){
+        view = '<img src="img/gu.png">';
+    }
+
+
+    if(r==7){
+        resultpic = '<img src="img/lose.png">'
+    }
+    if(r<=3){
+        resultpic = '<img src="img/draw.png">'
+    }
+    if(r>3 && r<=6){
+        resultpic = '<img src="img/win1.png">'
+    }
+    if(r>=8){
+        resultpic = '<img src="img/win2.png">'
+    }
+
+    $("#op_value").html(view);
+    $("#result").html(resultpic);
+});
