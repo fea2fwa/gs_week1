@@ -117,7 +117,11 @@ $("#my_value_par_boss").on("click",function(){
         resultpic = '<img src="img/win2.png">'
     }
 
+    $("#op_value").fadeOut(0)
+    $("#op_value").fadeIn(1000)
     $("#op_value").html(view);
+    $("#result").fadeOut(0)
+    $("#result").fadeIn(2000)
     $("#result").html(resultpic);
 });
 
@@ -147,7 +151,11 @@ $("#my_value_gu_boss").on("click",function(){
         resultpic = '<img src="img/win2.png">'
     }
 
+    $("#op_value").fadeOut(0)
+    $("#op_value").fadeIn(1000)
     $("#op_value").html(view);
+    $("#result").fadeOut(0)
+    $("#result").fadeIn(2000)
     $("#result").html(resultpic);
 });
 
@@ -178,6 +186,10 @@ $("#my_value_choki_boss").on("click",function(){
         resultpic = '<img src="img/win2.png">'
     }
 
+    $("#op_value").fadeOut(0)
+    $("#op_value").fadeIn(1000)
     $("#op_value").html(view);
+    $("#result").fadeOut(0)
+    $("#result").fadeIn(2000)
     $("#result").html(resultpic);
 });
