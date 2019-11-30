@@ -121,7 +121,7 @@ $("#my_value_par_boss").on("click",function(){
     $("#op_value").fadeIn(1000)
     $("#op_value").html(view);
     $("#result").fadeOut(0)
-    $("#result").fadeIn(2000)
+    $("#result").fadeIn(1500)
     $("#result").html(resultpic);
 });
 
@@ -155,7 +155,7 @@ $("#my_value_gu_boss").on("click",function(){
     $("#op_value").fadeIn(1000)
     $("#op_value").html(view);
     $("#result").fadeOut(0)
-    $("#result").fadeIn(2000)
+    $("#result").fadeIn(1500)
     $("#result").html(resultpic);
 });
 
@@ -190,6 +190,6 @@ $("#my_value_choki_boss").on("click",function(){
     $("#op_value").fadeIn(1000)
     $("#op_value").html(view);
     $("#result").fadeOut(0)
-    $("#result").fadeIn(2000)
+    $("#result").fadeIn(1500)
     $("#result").html(resultpic);
 });
